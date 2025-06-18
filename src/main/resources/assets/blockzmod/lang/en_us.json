@@ -1,3 +1,6 @@
 {
-  "item.blockzmod.hardwood": "Hard Wood"
+  "item.blockzmod.hardwood": "Hard Wood",
+  "item.blockzmod.raw_hardwood": "Raw Hard Wood",
+
+  "block.blockzmod.rawwood_block": "Raw Wood Block"
 }

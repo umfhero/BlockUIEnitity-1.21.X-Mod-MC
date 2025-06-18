@@ -12,7 +12,7 @@ public class ModItems {
             DeferredRegister.create(ForgeRegistries.ITEMS, BlockMod.MODID);
 
     public static final RegistryObject<Item> HARDWOOD = ITEMS.register("hardwood", () -> new Item(new Item.Properties()));
-
+    public static final RegistryObject<Item> RAW_HARDWOOD = ITEMS.register("raw_hardwood", () -> new Item(new Item.Properties()));
 
 
 
