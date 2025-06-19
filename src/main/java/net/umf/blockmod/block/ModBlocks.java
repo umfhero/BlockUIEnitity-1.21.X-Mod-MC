@@ -21,6 +21,10 @@ public class ModBlocks {
     public static final RegistryObject<Block> RAWWOOD_BLOCK = registryBlock("rawwood_block", () -> new
             Block(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.PACKED_MUD)));
 
+    public static final RegistryObject<Block> HARDWOOD_BLOCK = registryBlock("hardwood_block", () -> new
+            Block(BlockBehaviour.Properties.of().strength(3f).requiresCorrectToolForDrops().sound(SoundType.BONE_BLOCK)));
+
+
     private static <T extends Block> RegistryObject<T> registryBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
         registerBlockItem(name, toReturn);
