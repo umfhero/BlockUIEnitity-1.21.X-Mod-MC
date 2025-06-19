@@ -4,6 +4,9 @@
 
   "block.blockzmod.rawwood_block": "Raw Wood Block",
   "block.blockzmod.hardwood_block": "Hard Wood Block",
-  "block.blockzmod.birch_planks": "Birch Planks"
+  "block.blockzmod.birch_planks": "Birch Planks",
 
+
+  "creative.blockmod.block_items": "block Mod Items",
+  "creative.blockmod.block_blocks": "block Mod Blocks"
 }
