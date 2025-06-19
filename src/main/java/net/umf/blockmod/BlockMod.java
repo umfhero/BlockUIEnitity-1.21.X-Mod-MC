@@ -60,6 +60,7 @@ public class BlockMod {
         if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
             event.accept(ModBlocks.RAWWOOD_BLOCK);
             event.accept(ModBlocks.HARDWOOD_BLOCK);
+            event.accept(ModBlocks.BIRCH_PLANKS);
         }
 
     }
